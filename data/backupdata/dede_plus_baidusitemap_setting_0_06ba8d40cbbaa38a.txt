@@ -1,0 +1,7 @@
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('siteurl','http://www.a0218.com/','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('checksign','c060044696135755063de02e7e4001a4','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('pingtoken','','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('bdpwd','6c93772296bea4380f','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('setupmaxaid','2770','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_all','1432887770','1432887770');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_inc','1432887760','1432887760');

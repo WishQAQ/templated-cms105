@@ -1,0 +1,5 @@
+INSERT INTO `dede_addonarticle19` VALUES('62','55','公司宣传视频 --&nbsp;轮式扒渣机产品视频','','','192.168.1.135','/uploads/media/lsbzj.flv','/uploads/140219/1-140219134K9339.JPG','/uploads/media/lsbzj.mp4');
+INSERT INTO `dede_addonarticle19` VALUES('66','55','公司宣传视频-履带式扒渣机产品视频','','','192.168.1.135','/uploads/media/ldbzj.flv','/uploads/140219/1-1402191351443J.JPG','/uploads/media/ldbzj.mp4');
+INSERT INTO `dede_addonarticle19` VALUES('67','55','公司宣传片-履带式扒渣机工矿现场实拍工作视频','','','192.168.1.135','/uploads/media/ldbzjxc.flv','/uploads/140219/1-140219135620P9.JPG','/uploads/media/ldbzjxc.mp4');
+INSERT INTO `dede_addonarticle19` VALUES('68','55','轮式扒渣机工矿现场视频实拍','','','192.168.1.135','/uploads/media/lsbzjxc.flv','/uploads/140219/140219/1-14021914054E47.JPG','/uploads/media/lsbzjxc.MP4');
+INSERT INTO `dede_addonarticle19` VALUES('69','55','轮胎式矿用扒渣机矿洞工作现场','','','192.168.1.135','/uploads/media/lsbzjgk.flv','/uploads/140219/1-140219140T2438.JPG','/uploads/media/lsbzjgk.mp4');

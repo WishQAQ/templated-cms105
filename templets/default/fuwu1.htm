@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/public/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/public/css/page.css" />
+<link rel="icon" href="/public/images/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/images/icon.ico" type="image/x-icon">
+<!--[if IE 6]>
+	<script type="text/javascript" src="/public/js/IEpng.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/public/css/css3.css" rel="stylesheet" />
+<script src="/public/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="TopCon"> </div>
+{dede:include filename="head.htm"/}
+<div class="nyBanner"> <img src="/public/images/else/servicebanner.jpg"/>
+  <div class="BanFont"> We Are Where You Are <br/>
+    服务在您左右 </div>
+</div>
+<div class="AboutCon">
+  <h2>
+    <p class="pp1">呼叫中心</p>
+    <p class="pp2">CALL CENTER</p>
+  </h2>
+  <div class="hjCon22">
+    <ul class="clearfix">
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/1.jpg"/> </p>
+        <p class="pf"> 店铺报修 </p>
+      </li>
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/2.jpg"/> </p>
+        <p class="pf"> 账务管理 </p>
+      </li>
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/3.jpg"/> </p>
+        <p class="pf"> 销案管理 </p>
+      </li>
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/4.jpg"/> </p>
+        <p class="pf"> 派案管理 </p>
+      </li>
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/5.jpg"/> </p>
+        <p class="pf"> 统计分析 </p>
+      </li>
+      <li>
+        <p class="pm"> <img src="/public/images/fuwu/6.jpg"/> </p>
+        <p class="pf"> 店铺档案 </p>
+      </li>
+    </ul>
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/banner.js"></script>
+<script type="text/javascript" src="/public/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/public/js/script.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+
+		var gao1 = $(".hjCon ul li .pm img").width();
+
+		var gao2=gao1*0.56+35;
+
+		$(".sdCon ul li img").css({height:gao1*0.56});
+
+		$(".sdCon ul li").css({height:gao2});
+
+	})
+
+</script>
+</body>
+</html>

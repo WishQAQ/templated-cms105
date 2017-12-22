@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/public/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/public/css/page.css" />
+<link rel="icon" href="/public/images/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/images/icon.ico" type="image/x-icon">
+<!--[if IE 6]>
+	<script type="text/javascript" src="/public/js/IEpng.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/public/css/css3.css" rel="stylesheet" />
+<script src="/public/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="TopCon"> </div>
+{dede:include filename="head.htm"/}
+<div class="nyBanner"> <img src="/public/images/aboutbanner.jpg"/>
+  <div class="BanFont"> We Are Where You Are <br/>
+    服务在您左右 </div>
+</div>
+<div class="AboutCon">
+  <h2>
+    <p class="pp1">关于我们</p>
+    <p class="pp2">ABOUT US</p>
+  </h2>
+  <div class="gyCon1">
+    {dede:field.content/}
+  </div>
+</div>
+<div class="sdCon">
+  <ul class="clearfix">
+    <li class="li1"> <img src="/public/images/else/gy1.png"/>
+      <div class="sdbg">
+        <h2>业务</h2>
+        <p class="pt">全方面基础设施、设备维保</p>
+      </div>
+    </li>
+    <li class="li2"> <img src="/public/images/else/gy2.png"/>
+      <div class="sdbg">
+        <h2>业态</h2>
+        <p class="pt">所有连锁业态门店（餐饮、服装、超市、娱乐等）</p>
+      </div>
+    </li>
+    <li class="li3"> <img src="/public/images/else/gy3.jpg"/>
+      <div class="sdbg">
+        <h2>范围</h2>
+        <p class="pt">遍布60多个大中型城市，持续在增加中</p>
+      </div>
+    </li>
+  </ul>
+</div>
+{dede:include filename="footer.htm"/}
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/banner.js"></script>
+<script type="text/javascript" src="/public/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/public/js/script.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var gao1 = $(".sdCon ul li img").width();
+		$(".sdCon ul li img").css({height:gao1*0.4625});
+		$(".sdCon ul li").css({height:gao1*0.4625});
+		/*$(".sdCon ul").css({height:gao1*0.4625});
+		$(".sdCon").css({height:gao1*0.4625});*/
+		$(".sdCon .sdbg").css({height:gao1*0.4625});
+		
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<a title="" href="[field:typelink /]"><img src="public/images/fw1.png"/></a>

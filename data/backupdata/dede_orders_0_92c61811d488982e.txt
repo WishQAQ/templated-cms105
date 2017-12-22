@@ -1,0 +1,2 @@
+INSERT INTO `dede_orders` VALUES('1','1','admin','韩国固齿健咀漱片一盒（三瓶180粒）258元','asdasdasdadhkwnasd','13475520010','1347552001011@qq.com','0','','','','1364010915');
+INSERT INTO `dede_orders` VALUES('1','1','admin','韩国固齿健咀漱片一盒（三瓶180粒）258元','asdasdasdadhkwnasd','13475520010','1347552001011@qq.com','0','','','','1364010915');

@@ -1,0 +1,1 @@
+INSERT INTO `dede_addonvideo` VALUES('188','5','','','192.168.1.12','/uploads/soft/120608/01.rar');

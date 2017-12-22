@@ -1,0 +1,3 @@
+
+	  <dd><a href='[field:typeurl/]'>[field:typename/]</dd>
+	  

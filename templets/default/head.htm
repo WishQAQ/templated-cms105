@@ -1,0 +1,25 @@
+<div class="header">
+  <div class="HeadCon clearfix">
+    <h1 class="fl"> <a title="" href="/"><img src="/public/images/logo.png"/></a> </h1>
+    <div class="HeadNav fr">
+      <div class="yyBanBen clearfix">
+				<p class="fr"><a>热线：400-000-0000</a></p>
+			</div>
+	  <ul class="clearfix">
+        <li > <a <li {dede:field name=typeid runphp="yes"}(@me=="")? @me="   class='current'  ":@me="";{/dede:field}><a href="/">首页</a></li>
+        {dede:channel type="top" currentstyle="<li><a class='current' href='~typelink~'>~typename~</a></li>" }
+		<li><a href="[field:typeurl/]">[field:typename/]</a></li>
+		{/dede:channel}
+      </ul>
+    </div>
+    <button class="btn-nav-bar" type="button"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+  </div>
+</div>
+<div class="mobile-nav">
+  <ul>
+	<li><a href="/">首页</a></li>
+    {dede:channel type="top" }    
+	<li><a title="" href="[field:typeurl/]">[field:typename/]</a></li>
+	{/dede:channel}
+  </ul>
+</div>

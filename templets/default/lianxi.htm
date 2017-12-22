@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/public/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/public/css/page.css" />
+<link rel="icon" href="/public/images/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/images/icon.ico" type="image/x-icon">
+<!--[if IE 6]>
+	<script type="text/javascript" src="/public/js/IEpng.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/public/css/css3.css" rel="stylesheet" />
+<script src="/public/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="TopCon"> </div>
+{dede:include filename="head.htm"/}
+<div class="nyBanner">
+  <iframe src="/map.html" width="100%" height="398" frameborder="0" allowtransparency="true"></iframe>
+  <div class="BanFont"> We Are Where You Are <br/>
+    服务在您左右 </div>
+</div>
+<div class="AboutCon">
+  <h2>
+    <p class="pp1">联系方式</p>
+    <p class="pp2">CONTANCT US</p>
+  </h2>
+  <div class="OurKH">
+		<dl class="clearfix">
+            {dede:channel row="10" type="son" col="1" currentstyle="<a href='~typelink~' ~rel~><dd class='current'>~typename~</dd></a>"}
+        	<a href="[field:typeurl/]"><dd>[field:typename/]</dd></a>
+			{/dede:channel}
+			
+
+		</dl>
+	</div>
+  <div class="zpXinXi">
+    <ul class="clearfix">
+      <li class="clearfix">
+        <div class="sz fl"> 1 </div>
+        <div class="zpCon fl">
+          <h2>广州总公司</h2>
+          <div class="zhize">
+            <h6>咨询热线：400-000-0000</h6>
+            <p class="">
+              地址：广州市天河区迎龙路161号<br />
+              地铁：长湴站C出口往右200米<br />
+              <br />
+              热线：<br />
+              前台热线：020—00000000<br />
+			  总经理：020—00000000<br />
+              </p>
+          </div>
+        </div>
+      </li>
+      <li class="clearfix">
+        <div class="sz fl"> 2 </div>
+        <div class="zpCon fl">
+          <h2>上海总公司</h2>
+          <div class="zhize">
+            <h6>咨询热线：400-000-0000</h6>
+            <p class="">
+              地址：上海市天河区迎龙路161号<br />
+              地铁：长湴站C出口往右200米<br />
+              <br />
+              热线：<br />
+              前台热线：020—00000000<br />
+			  总经理：020—00000000<br />
+              </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="zpXinXi2">
+    <ul class="clearfix">
+    </ul>
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/banner.js"></script>
+<script type="text/javascript" src="/public/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/public/js/script.js"></script>
+</body>
+</html>

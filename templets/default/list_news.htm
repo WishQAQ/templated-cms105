@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/public/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/public/css/page.css" />
+<link rel="icon" href="/public/images/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/images/icon.ico" type="image/x-icon">
+<!--[if IE 6]>
+	<script type="text/javascript" src="/public/js/IEpng.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/public/css/css3.css" rel="stylesheet" />
+<script src="/public/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="TopCon"> </div>
+{dede:include filename="head.htm"/}
+<div class="nyBanner"> <img src="/public/images/else/newsbanner.jpg"/>
+  <div class="BanFont"> We Are Where You Are <br/>
+    服务在您左右 </div>
+</div>
+<div class="AboutCon">
+  <h2>
+    <p class="pp1">新闻中心</p>
+    <p class="pp2">NEWS CENTER</p>
+  </h2>
+  <div class="OurKH">
+		<dl class="clearfix">
+            {dede:channel row="10" type="son" col="1" currentstyle="<a href='~typelink~' ~rel~><dd class='current'>~typename~</dd></a>"}
+        	<a href="[field:typeurl/]"><dd>[field:typename/]</dd></a>
+			{/dede:channel}
+			
+
+		</dl>
+	</div>
+
+
+</div>
+<div class="newsCon">
+  <ul>
+    {dede:list pagesize="8" infolen="150"}
+	<li>
+      <div class="clearfix xwCon">
+        
+		<div class="fl xwPic"> <a title="" href="[field:arcurl/]"> <img src="[field:picname/]"/ width="210" height="180"> </a> </div>
+        <div class="fr xwFont">
+          <p class="data">[field:pubdate function="MyDate('Y-m-d',@me)"/]</p>
+          <a title="" href="[field:arcurl/]">
+          <h3>[field:title/]</h3>
+          <div class="pf">
+            <p class="">[field:infos/]…</p>
+          </div>
+          </a>
+          <div class="pa"> <a title="[field:title/]" href="[field:arcurl/]">了解更多</a> </div>
+        </div>
+		
+      </div>
+    </li>
+	{/dede:list}
+  </ul>
+  <div class="Show">{dede:pagelist istitem="index,pre,next,end," listsize="5"/}</div>
+</div>
+{dede:include filename="footer.htm"/}
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/banner.js"></script>
+<script type="text/javascript" src="/public/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/public/js/script.js"></script>
+
+
+
+</body>
+</html>

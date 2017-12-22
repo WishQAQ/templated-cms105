@@ -1,0 +1,1 @@
+INSERT INTO `dede_mynews` VALUES('1','0','公告栏','admin','1280751222','<p>呵呵就回家</p>');

@@ -1,0 +1,1 @@
+<p><img src="[field:imgsrc/]" title="DSC_0078.JPG" style="white-space: normal; float: none;"/></p>

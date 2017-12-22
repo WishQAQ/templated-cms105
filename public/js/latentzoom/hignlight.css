@@ -1,0 +1,25 @@
+﻿.latentzoom {
+	CURSOR: url(zoomin.cur), pointer; outline: none
+}
+.latentzoom-image {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 2px solid; BORDER-LEFT: white 2px solid; BORDER-BOTTOM: white 2px solid
+}
+.latentzoom-image-blur {
+	
+}
+.latentzoom-caption {
+	BORDER-RIGHT: white 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: white 2px; DISPLAY: none; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; BORDER-LEFT: white 2px solid; COLOR: #666666; PADDING-TOP: 5px; BORDER-BOTTOM: white 2px solid; BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+.latentzoom-display-block {
+	DISPLAY: block
+}
+.latentzoom-display-none {
+	DISPLAY: none
+}
+.latentzoom-loading {
+	PADDING-RIGHT: 3px; BACKGROUND-POSITION: 3px 1px; BORDER-TOP: white 1px solid; DISPLAY: block; PADDING-LEFT: 22px; FONT-WEIGHT: bold; FONT-SIZE: 9px; BACKGROUND-IMAGE: url(loader.gif); PADDING-BOTTOM: 3px; TEXT-TRANSFORM: uppercase; COLOR: white; PADDING-TOP: 3px; BORDER-BOTTOM: white 1px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: black; TEXT-DECORATION: none
+}
+.latentzoom-move {
+	CURSOR: move;
+}
+.control {float: right; display: block;/*position: relative;*/ margin: 0 5px; font-weight: bold; text-decoration: none; color: #999;}

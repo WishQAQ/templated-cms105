@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/public/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/public/css/page.css" />
+<link rel="icon" href="/public/images/icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/public/images/icon.ico" type="image/x-icon">
+<!--[if IE 6]>
+	<script type="text/javascript" src="/public/js/IEpng.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<link href="/public/css/css3.css" rel="stylesheet" />
+<script src="/public/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="TopCon"> </div>
+{dede:include filename="head.htm"/}
+<script type="text/javascript" src="/public/js/latentzoom/latentzoom.js"></script>
+<script type="text/javascript" src="/public/js/latentzoom/latentzoom-html.js"></script>
+<link rel="stylesheet" href="/public/js/latentzoom/hignlight.css" type="text/css" media="screen" />
+<div class="caseBanner"> <img src="/public/images/else/casebanner.jpg"/>
+  <div class="BanFont"> We Are Where You Are <br/>
+    服务在您左右 </div>
+</div>
+<div class="AboutCon">
+  <h2>
+    <p class="pp1">成功案例</p>
+    <p class="pp2">CASES</p>
+  </h2>
+  <div class="cgAnLi">
+    <ul class="clearfix">
+	  {dede:list pagesize="8"}
+	  <li> <a href="[field:arcurl/]"><img src="[field:picname/]" class="img"/></a>
+        <p class="pf">[field:title/]</p>
+      </li>
+	  {/dede:list}
+	  
+    </ul>
+  </div>
+  <div class="cgAnLi2">
+    <ul class="clearfix">
+	</ul>
+  </div>
+  <div class="Show">{dede:pagelist istitem="index,pre,next,end," listsize="5"/}</div>
+</div>
+{dede:include filename="footer.htm"/}
+<script type="text/javascript" src="/public/js/jquery.js"></script>
+<script type="text/javascript" src="/public/js/banner.js"></script>
+<script type="text/javascript" src="/public/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/public/js/script.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var gao1 = $(".cgAnLi ul li img.img").width();
+		
+		$(".cgAnLi ul li img.img").css({height:gao1*1.42});
+		$(".cgAnLi ul li").css({height:gao1*1.42});
+		$(".cgAnLi2 ul li img.img").css({height:gao1*1.42});
+		$(".cgAnLi2 ul li").css({height:gao1*1.42});
+		
+	})
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".cgAnLi ul li ").hover(function(){
+			$(this).find(".pf").stop(true,true).animate({"bottom":"0px"},500);
+		},function(){
+			$(this).find(".pf").stop(true,true).animate({"bottom":"-70px"},300);
+		});
+
+		$(".cgAnLi2 ul li ").hover(function(){
+			$(this).find(".pf").stop(true,true).animate({"bottom":"0px"},500);
+		},function(){
+			$(this).find(".pf").stop(true,true).animate({"bottom":"-70px"},300);
+		});
+
+		$(".Show img").toggle(function(){
+			$(this).attr("src","/sh/Public/images/else/hide.png");
+			$(".cgAnLi2").slideDown(500);
+		},function(){
+			$(this).attr("src","/sh/Public/images/else/more.png");
+			$(".cgAnLi2").slideUp(300);
+		});
+	})
+</script>
+
+</body>
+</html>

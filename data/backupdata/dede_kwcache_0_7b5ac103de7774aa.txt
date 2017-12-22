@@ -1,0 +1,6 @@
+INSERT INTO `dede_kwcache` VALUES('885','14','http://www.jb51.net/cms/16862.html');
+INSERT INTO `dede_kwcache` VALUES('886','14','http://www.jb51.net/cms/16934.html');
+INSERT INTO `dede_kwcache` VALUES('887','14','http://www.jb51.net/cms/36105.html');
+INSERT INTO `dede_kwcache` VALUES('888','14','http://www.jb51.net/cms/16857.html');
+INSERT INTO `dede_kwcache` VALUES('889','14','http://www.jb51.net/cms/39000.html');
+INSERT INTO `dede_kwcache` VALUES('890','14','http://www.jb51.net/cms/36191.html');
